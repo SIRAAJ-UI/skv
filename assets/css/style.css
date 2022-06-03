@@ -34505,3 +34505,12 @@ html:not(.lt-ie10) .not-animated {
 		margin-top: 60px;
 	}
 }
+
+INPUT::-webkit-input-placeholder, 
+INPUT:-moz-placeholder {
+    color:#fff;
+}
+input[placeholder], [placeholder], *[placeholder]
+{
+    color:#fff !important;
+}
