@@ -17391,7 +17391,7 @@ h1 .label-custom, h2 .label-custom, h3 .label-custom, h4 .label-custom, h5 .labe
 
 @media (min-width: 1200px) {
 	.post-event-body {
-		padding-top: 21px;
+		padding-top: 30px;
 	}
 }
 
@@ -19568,6 +19568,7 @@ html .range-85 > * {
 .unit-vertical > .unit-left + .unit-body {
 	padding-left: 0;
 	padding-top: 20px;
+	padding-bottom:20px;
 }
 
 .unit > .unit-body + .unit-right,
@@ -20548,7 +20549,7 @@ html .range-85 > * {
 
 @media (min-width: 1200px) {
 	.unit-spacing-xxs.unit-lg > [class*='unit-']:first-child, .unit-spacing-xxs.unit-lg-vertical > [class*='unit-']:first-child {
-		padding-top: 0;
+		padding-top: 10px;
 	}
 	.unit-spacing-xxs.unit-lg > .unit-left + .unit-right,
 	.unit-spacing-xxs.unit-lg > .unit-left + .unit-body, .unit-spacing-xxs.unit-lg-vertical > .unit-left + .unit-right,
