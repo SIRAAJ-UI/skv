@@ -93,7 +93,7 @@
 /** 2.1  Reset */
 html,body {
 	font-weight: 700;
-    line-height: 1.2;
+    line-height: 1.52;
     font-family: "Merriweather", "Times New Roman", Times, serif;
 }
 html *:first-child {
@@ -8892,7 +8892,7 @@ fieldset[disabled] .tags-list .btn-primary {
 
 
 .navbar-light .navbar-nav .nav-link {
-	margin-right:20px;
+	margin-right:40px;
 	font-weight: 700;
     line-height: 1.2;
 	color:rgb(45, 46, 46);
@@ -24212,7 +24212,7 @@ fieldset[disabled] .swiper-slide-caption .btn-primary {
 .rd-navbar-default.rd-navbar-static .rd-navbar-brand img {
 	width: auto;
 	height: auto;
-	max-width: 300px;
+	/* max-width: 300px; */
 	max-height: 90px;
 	transition: 0.25s all ease;
 }
@@ -34513,4 +34513,8 @@ INPUT:-moz-placeholder {
 input[placeholder], [placeholder], *[placeholder]
 {
     color:#fff !important;
+}
+
+.navbar {
+    box-shadow: none;
 }
