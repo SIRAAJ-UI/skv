@@ -91,6 +91,11 @@
 */
 /** 2 Bootstrap Toolkit Styles */
 /** 2.1  Reset */
+html,body {
+	font-weight: 700;
+    line-height: 1.2;
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+}
 html *:first-child {
 	margin-top: 0;
 }
@@ -219,6 +224,17 @@ iframe {
     position: relative;
     width: 100%;
     display: block;
+}
+
+.post-event-body h4 a {
+    color: #b80924;
+}
+
+.appointment-form .form-group .icon span {
+    color: white !important;
+}
+.ion-ios-arrow-down:before {
+    content: "\f3d0";
 }
 
 .form-group {
@@ -2528,7 +2544,7 @@ html.lt-ie-10 .range > [class*="cell-lg-preffix-"] {
 }
 
 .font-default {
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-family: "Merriweather", "Times New Roman", Times, serif;
 }
 
 .font-accent {
@@ -8866,6 +8882,22 @@ fieldset[disabled] .tags-list .btn-primary {
 	transform: translate(0, 0);
 }
 
+
+.navbar-light .navbar-nav .nav-link {
+	margin-right:20px;
+	font-weight: 700;
+    line-height: 1.2;
+	color:rgb(45, 46, 46);
+	font-size: 16px;
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+	text-decoration: none;
+}
+.navbar-light .navbar-nav .nav-item.active .nav-link{
+	color:#b80924;
+}
 .mdi-access-point:before {
 	content: "\f101";
 }
