@@ -16,9 +16,29 @@
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="./assets/fonts/materialdesignicons-webfont.woff2">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/flaticons.min.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,700%7CMerriweather:400,300,300italic,400italic,700,700italic">
-   
-	
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome">
+    <style>
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: #fff;
+            opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: #fff;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+            color: #fff;
+ }
+ .form-control::-webkit-input-placeholder {
+  color: #fff;
+}
+
+
+    </style>
   </head>
   <body>
     <!-- <div class="page-loader">
@@ -569,20 +589,29 @@
                         <input type="text" class="form-control" placeholder="Parent Name">
                       </div>
                       <div class="form-group">
-                        <select class="form-select form-select-md" style="margin:10px;margin-top:20px;height: 35px;" aria-label=".form-select-sm example">
+                        <div class="form-field">
+                          <div class="select-wrap">
+                            <div class="icon"><span ><i class="fa-solid fa-angle-down"></i></span></div>
+                            <select name="" id="" class="form-control">
+                                <option value="">Select Board</option>
+                                <option value="">CBSE</option>
+                                <option value="">State Board</option>
+                            </select>
+                          </div>
+                        </div>
+                        <!-- <select class="form-select form-select-md" style="margin:10px;margin-top:20px;height: 35px;" aria-label=".form-select-sm example">
                           <option value="">Select Board</option>
                           <option value="">CBSE</option>
                           <option value="">State Board</option>
-                        </select>
+                        </select> -->
                       </div>
                     </div>
                     <div class="d-md-flex">
                       <div class="form-group">
                         <div class="form-field">
                           <div class="select-wrap">
-                            <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                           
-                            <select class="form-select form-select-md" style="margin-top:18px;height: 35px;" aria-label=".form-select-sm example">
+                            <div class="icon"><span ><i class="fa-solid fa-angle-down"></i></span></div>
+                            <select name="" id="" class="form-control">
                               <option value="">Select Class</option>
                               <option value="">Pre KG</option>
                               <option value="">LKG</option>
@@ -600,7 +629,6 @@
                               <option value="">XI</option>
                               <option value="">XII</option>
                             </select>
-                          
                           </div>
                         </div>
                       </div>
@@ -635,7 +663,7 @@
         <div class="owl-carousel" data-items="1" data-xs-items="2" data-sm-items="4" data-xl-items="6" data-nav="true" data-dots="true" data-mouse-drag="false" data-stage-padding="0">
           <a class="thumbnail-default" href="./assets/images/portfolio/gallery-10-1200x800-original.jpg" data-lightgallery="item"><img src="./assets/images/portfolio/gallery-1-320x320.jpg" alt="" width="320" height="320"/><span class="icon novi-icon fa-search-plus"></span></a>
           <a class="thumbnail-default" href="./assets/images/portfolio/gallery-11-1200x800-original.jpg" data-lightgallery="item"><img src="./assets/images/portfolio/gallery-2-320x320.jpg" alt="" width="320" height="320"/><span class="icon novi-icon fa-search-plus"></span></a>
-          <a class="thumbnail-default" href="./assets/images/portfolio/gallery-12-1200x800-original.jpg" data-lightgallery="item"><img src="./assets/images/portfolio/gallery-3-320x320.jpg" alt="" width="320" height="320"/><span class="icon novi-icon fa-search-plus"></span></a>
+          <a class="thumbnail-default" href="./assets/images/portfolio/gallery-12-1200x800-original.jpg" data-lightgallery="item"><img src="./assets/images/portfolio/gallery-4-320x320.jpg" alt="" width="320" height="320"/><span class="icon novi-icon fa-search-plus"></span></a>
           <a class="thumbnail-default" href="./assets/images/portfolio/gallery-13-1200x800-original.jpg" data-lightgallery="item"><img src="./assets/images/portfolio/gallery-4-320x320.jpg" alt="" width="320" height="320"/><span class="icon novi-icon fa-search-plus"></span></a>
         </div>
       </section>
