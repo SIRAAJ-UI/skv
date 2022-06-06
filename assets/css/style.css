@@ -16820,6 +16820,7 @@ html .group-bottom {
 	margin: 24px 0 0 3px;
 }
 
+
 .quote-outboxed:before {
 	color: #b1b1b1;
 	top: 0;
@@ -17251,6 +17252,7 @@ h1 .label-custom, h2 .label-custom, h3 .label-custom, h4 .label-custom, h5 .labe
 	height: 100%;
 	width: auto;
 }
+
 
 .post-vacation-body {
 	display: inline-block;
@@ -19568,7 +19570,7 @@ html .range-85 > * {
 .unit-vertical > .unit-left + .unit-body {
 	padding-left: 0;
 	padding-top: 20px;
-	padding-bottom:20px;
+	padding-bottom:0px;
 }
 
 .unit > .unit-body + .unit-right,
@@ -24211,7 +24213,7 @@ fieldset[disabled] .swiper-slide-caption .btn-primary {
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-brand img {
-	width: auto;
+	width: 100%;
 	height: auto;
 	/* max-width: 300px; */
 	max-height: 90px;
@@ -34518,4 +34520,10 @@ input[placeholder], [placeholder], *[placeholder]
 
 .navbar {
     box-shadow: none;
+}
+
+
+.mx-auto-1{
+	margin-right: auto!important;
+    margin-left: auto!important;
 }
