@@ -3080,11 +3080,13 @@ mark, .mark {
 }
 
 .list-inline-primary a {
-	color: #0d2d62;
+	color: #b80924;
+	font-weight: 700;
 }
 
 .list-inline-primary a:hover {
 	color: #b80924;
+	text-decoration: underline;
 }
 
 .list-marked {
@@ -34526,4 +34528,9 @@ input[placeholder], [placeholder], *[placeholder]
 .mx-auto-1{
 	margin-right: auto!important;
     margin-left: auto!important;
+}
+
+.post-vacation-title {
+    color: #b80924;
+    font-weight: 700;
 }
